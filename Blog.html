@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        
+<nav>
+    <a href="index.html"><img src="logo.png"> </a>
+<div class="nav-links" id="navlinks">
+    <i class="fa fa-times" onclick="hidemenu()" ></i>
+<ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="course.html">COURSE</a></li>
+    <li><a href="Blog.html">BLOG</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<h1>Our certificate & online programs for 2021</h1>
+ </section>
+
+ <!---------- bolg page content -------->
+  
+ <section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="certificate.jpg">
+            <h2>Our certificate & online programs for 2021 </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse est delectus dolore dolorem officia dignissimos, molestiae repellat incidunt consectetur, iure animi a quae rem beatae maiores eius eligendi blanditiis cupiditate.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae asperiores sint aliquid! Veniam unde, incidunt amet obcaecati totam iusto cupiditate et odio accusamus, quae officia enim fugiat molestias explicabo!</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, porro. Aspernatur, ab magnam voluptates porro neque aliquam. Nesciunt aperiam dolorem laborum maiores explicabo eaque totam reiciendis, praesentium laudantium ipsa veritatis?</p>
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment">
+</textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data science</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Machine learning</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Computer science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+        </div>
+
+
+
+
+ </section>
+
+
+
+          <!------ Footer------>
+
+          <section class="footer">
+              <h4>About Us</h4>
+              <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Voluptates deleniti alias, beatae deserunt quas iure natus excepturi eveniet expedita sapiente iusto, sunt et ea porro accusamus labore, repellat architecto repellendus!</P>
+              <div class="icons">
+                <i class="fa fa-facebook" ></i>
+                <i class="fa fa-twitter" ></i>
+                <i class="fa fa-instagram" ></i>
+                <i class="fa fa-linkedin" ></i>
+                
+
+              </div>
+              <P>Made with <i class="fa fa-heart-o" ></i>:by Sagar Sharma </P>
+
+            </section>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--------javascript for Toogle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+
+
+
+
+
+    </script>
+  
+
+</body>
+
+</html>
